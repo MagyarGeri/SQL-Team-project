@@ -139,15 +139,7 @@ INNER JOIN course ON projects.course_id = course.course_id;
 
 SELECT project_name AS projektek, "description" AS "rövid leírás", task AS feladat, form_type AS típus, background_mat AS "hasznos linkek" FROM projects;
 
-/* SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 1;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 2;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 3;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 4;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 5;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 6;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 7;
-SELECT project_name, "description", task, form_type, background_mat FROM projects WHERE project_id = 8;
- */
+
 
 
 
@@ -175,15 +167,6 @@ INNER JOIN projects ON review.projects_id = projects.project_id;
 
 
 
-
-/* SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 2 ORDER BY score DESC;
-SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 3 ORDER BY score DESC;
-SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 4 ORDER BY score DESC;
-SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 5 ORDER BY score DESC;
-SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 6 ORDER BY score DESC;
-SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 7 ORDER BY score DESC;
-SELECT students_id, reviewer_id, score, "date", comment FROM review WHERE projects_id = 8 ORDER BY score DESC;
- */
 
 #####5e
 
